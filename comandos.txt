@@ -1,0 +1,96 @@
+configuracion
+-----------------------------------------------
+git config --global user.name "santiago"
+
+git config --global user.email "ss@gmail.com"
+
+git config --global color.ui true
+
+git config --global --list
+muestra la configuracion
+--------------------------------------------------
+git init
+comienza a monitorizar el proyecto
+
+git status
+dice el estado del proyecto
+
+git add -A
+añade todos los cambios
+
+git commit -m "mensaje"
+guarda los cambios
+
+git log
+muestra los diferentes comits que tenemos
+
+git checkout
+permite seleccionar un comit o una rama
+
+git reset --soft
+borra comits pero no toca el codigo
+
+git reset --hard
+borra comits pero este si borra el codigo
+
+git branch
+muestra las ramas que tenemos
+
+git branch "rama a crear"
+crea una rama
+
+git branch -D rama
+borra ramas
+
+git merge rama
+absorbe o fuciona ramas
+
+git checkout -b
+creamos y nos movemos a una rama
+
+git clone
+sirve para clonar un proyecto
+
+git remote add origin
+vincula nuestro repositorio local con el remoto
+
+git remote -v
+nos muestra nuestro repositorios remotos
+
+git remote remove origin
+quita el repositorio remoto
+
+git push origin master
+sube los cambios de la rama master a el repositorio remoto
+
+git push origin master -f
+fuerza a que se suba incluso si no ubieron cambios
+
+git commit --amend -m "
+cambiar el comentario de un commit"
+
+git tag -a v1.0 -m "vercion 1.0 del programa"
+permite crear un comentario para por ejemplo especificar en que commit es tal version
+si le agregamos es codigo del commit lo podemos hacer con cualquier commit 
+
+git push origin v1.0
+para subir versiones
+
+git push origin --tags
+para subir todos los tags
+
+
+----------------------------
+git hub
+-----------------------------
+issues
+son cambios que se van a hacer
+
+milestone
+son para englobar issues
+
+labels
+son para referirse a problemas, cambios, etc
+
+
+
